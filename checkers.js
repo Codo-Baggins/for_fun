@@ -45,7 +45,7 @@ function shiftOverOne() {
 }
 
 
-function partOne() {
+function createBoard() {
     for (i = 0; i < numberSpaces; i++) {
         i = wholeBoard.push(xAxis);
         if (wholeBoard.length == numberSpaces) {
@@ -55,7 +55,7 @@ function partOne() {
     }    
 }
 
-partOne();
+createBoard();
 
 console.log(wholeBoard);
 
